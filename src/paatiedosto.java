@@ -1,7 +1,5 @@
 import java.util.*;
 
-import com.sun.media.jfxmedia.events.PlayerEvent;
-
 public class paatiedosto {
 
 	public static void main(String[] args) {
@@ -21,6 +19,7 @@ public class paatiedosto {
 		System.out.println("list with added persons\n");
 		Collections.sort(players, Player.PlayerScoreComparator);
 		System.out.println(Player.toString(players));
+		
 	}
 
 }
